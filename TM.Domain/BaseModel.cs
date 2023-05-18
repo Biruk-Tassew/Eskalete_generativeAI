@@ -1,3 +1,5 @@
+using System;
+
 namespace TM.Domain;
 public class BaseModel
 {

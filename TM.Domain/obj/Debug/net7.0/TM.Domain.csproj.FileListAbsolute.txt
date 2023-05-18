@@ -1,0 +1,12 @@
+/home/biruk/Desktop/Classes/A2SV/Internship/AI/TM.Domain/bin/Debug/net7.0/TM.Domain.deps.json
+/home/biruk/Desktop/Classes/A2SV/Internship/AI/TM.Domain/bin/Debug/net7.0/TM.Domain.dll
+/home/biruk/Desktop/Classes/A2SV/Internship/AI/TM.Domain/bin/Debug/net7.0/TM.Domain.pdb
+/home/biruk/Desktop/Classes/A2SV/Internship/AI/TM.Domain/obj/Debug/net7.0/TM.Domain.csproj.AssemblyReference.cache
+/home/biruk/Desktop/Classes/A2SV/Internship/AI/TM.Domain/obj/Debug/net7.0/TM.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/biruk/Desktop/Classes/A2SV/Internship/AI/TM.Domain/obj/Debug/net7.0/TM.Domain.AssemblyInfoInputs.cache
+/home/biruk/Desktop/Classes/A2SV/Internship/AI/TM.Domain/obj/Debug/net7.0/TM.Domain.AssemblyInfo.cs
+/home/biruk/Desktop/Classes/A2SV/Internship/AI/TM.Domain/obj/Debug/net7.0/TM.Domain.csproj.CoreCompileInputs.cache
+/home/biruk/Desktop/Classes/A2SV/Internship/AI/TM.Domain/obj/Debug/net7.0/TM.Domain.dll
+/home/biruk/Desktop/Classes/A2SV/Internship/AI/TM.Domain/obj/Debug/net7.0/refint/TM.Domain.dll
+/home/biruk/Desktop/Classes/A2SV/Internship/AI/TM.Domain/obj/Debug/net7.0/TM.Domain.pdb
+/home/biruk/Desktop/Classes/A2SV/Internship/AI/TM.Domain/obj/Debug/net7.0/ref/TM.Domain.dll
