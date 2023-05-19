@@ -1,6 +1,6 @@
 using System;
 using Microsoft.AspNetCore.Identity;
-
+using TM.Domain.Common;
 
 namespace TM.Domain;
 public class Tasks : BaseModel
