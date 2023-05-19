@@ -1,0 +1,9 @@
+TM.Persistence/obj
+TM.Persistence/bin
+TM.Domain/bin
+TM.Domain/obj
+TM.Application/obj
+TM.Application/bin
+TM.API/bin/Debug
+TM.API/obj
+TM.Persistence/Migrations

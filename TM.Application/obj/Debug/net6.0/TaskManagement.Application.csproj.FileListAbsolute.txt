@@ -1,0 +1,15 @@
+/home/biruk/DavG/A2SV/Eskalate_Internship/TM/TM.Application/obj/Debug/net6.0/TM.Application.csproj.AssemblyReference.cache
+/home/biruk/DavG/A2SV/Eskalate_Internship/TM/TM.Application/obj/Debug/net6.0/TM.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/biruk/DavG/A2SV/Eskalate_Internship/TM/TM.Application/obj/Debug/net6.0/TM.Application.AssemblyInfoInputs.cache
+/home/biruk/DavG/A2SV/Eskalate_Internship/TM/TM.Application/obj/Debug/net6.0/TM.Application.AssemblyInfo.cs
+/home/biruk/DavG/A2SV/Eskalate_Internship/TM/TM.Application/obj/Debug/net6.0/TM.Application.csproj.CoreCompileInputs.cache
+/home/biruk/DavG/A2SV/Eskalate_Internship/TM/TM.Application/bin/Debug/net6.0/TM.Application.deps.json
+/home/biruk/DavG/A2SV/Eskalate_Internship/TM/TM.Application/bin/Debug/net6.0/TM.Application.dll
+/home/biruk/DavG/A2SV/Eskalate_Internship/TM/TM.Application/bin/Debug/net6.0/ref/TM.Application.dll
+/home/biruk/DavG/A2SV/Eskalate_Internship/TM/TM.Application/bin/Debug/net6.0/TM.Application.pdb
+/home/biruk/DavG/A2SV/Eskalate_Internship/TM/TM.Application/bin/Debug/net6.0/TM.Domain.dll
+/home/biruk/DavG/A2SV/Eskalate_Internship/TM/TM.Application/bin/Debug/net6.0/TM.Domain.pdb
+/home/biruk/DavG/A2SV/Eskalate_Internship/TM/TM.Application/obj/Debug/net6.0/TM.Application.csproj.CopyComplete
+/home/biruk/DavG/A2SV/Eskalate_Internship/TM/TM.Application/obj/Debug/net6.0/TM.Application.dll
+/home/biruk/DavG/A2SV/Eskalate_Internship/TM/TM.Application/obj/Debug/net6.0/ref/TM.Application.dll
+/home/biruk/DavG/A2SV/Eskalate_Internship/TM/TM.Application/obj/Debug/net6.0/TM.Application.pdb
