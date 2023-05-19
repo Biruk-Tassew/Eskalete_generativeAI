@@ -18,6 +18,7 @@ namespace TM.Persistence.Configurations.Entities
             builder.HasData(
                 new CheckList
                 {
+                    Id = 1,
                     Title = "Test",
                      Description = "Test",
                      TaskId = 2,
@@ -25,6 +26,7 @@ namespace TM.Persistence.Configurations.Entities
 
                  new CheckList
                  {
+                    Id = 2,
                      Title = "Test 2",
                      Description = "Test 2",
                      TaskId = 2,

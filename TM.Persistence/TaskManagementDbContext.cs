@@ -1,12 +1,14 @@
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 using TM.Domain.Common;
 using TM.Domain;
 
 namespace TM.Persistence
 {
-    public class TMDbContext : DbContext
+    public class TMDbContext : IdentityDbContext<IdentityUser>
     {
         public TMDbContext(DbContextOptions<TMDbContext> options)
            : base(options)
@@ -17,28 +19,24 @@ namespace TM.Persistence
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+             base.OnModelCreating(modelBuilder);
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(TMDbContext).Assembly);
         }
 
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
 
-            foreach (var entry in ChangeTracker.Entries<BaseDomainEntity>())
+            foreach (var entry in ChangeTracker.Entries<BaseModel>())
             {
-                entry.Entity.LastModifiedDate = DateTime.Now;
-
-                if (entry.State == EntityState.Added)
-                {
-                    entry.Entity.DateCreated = DateTime.Now;
-                }
+                entry.Entity.UpdatedDate = DateTime.UtcNow;
             }  
 
 
             return base.SaveChangesAsync(cancellationToken);
         }
 
-        public DbSet<Tasks> Rates { get; set; }
-        public DbSet<CheckList> Review { get; set; }
+        public DbSet<Tasks> Tasks { get; set; }
+        public DbSet<CheckList> CheckList { get; set; }
         
 
     }
