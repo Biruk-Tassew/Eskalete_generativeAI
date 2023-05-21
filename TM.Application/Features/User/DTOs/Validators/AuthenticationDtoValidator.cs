@@ -1,6 +1,6 @@
 using FluentValidation;
 
-namespace TM.Application.Features.Tasks.DTOs.Validators
+namespace TM.Application.Features.User.DTOs.Validators
 {
     public class AuthenticationDtoValidator : AbstractValidator<AuthenticationDto>
     {

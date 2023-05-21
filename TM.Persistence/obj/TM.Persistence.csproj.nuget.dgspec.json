@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/biruk/Desktop/Classes/A2SV/Internship/net/Task-Management-system/TM.Persistence/TM.Persistence.csproj": {}
+    "/home/biruk/Desktop/Classes/A2SV/Internship/net/ra/TaskManagementSystem/TM.Persistence/TM.Persistence.csproj": {}
   },
   "projects": {
-    "/home/biruk/Desktop/Classes/A2SV/Internship/net/Task-Management-system/TM.Application/TM.Application.csproj": {
+    "/home/biruk/Desktop/Classes/A2SV/Internship/net/ra/TaskManagementSystem/TM.Application/TM.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/biruk/Desktop/Classes/A2SV/Internship/net/Task-Management-system/TM.Application/TM.Application.csproj",
+        "projectUniqueName": "/home/biruk/Desktop/Classes/A2SV/Internship/net/ra/TaskManagementSystem/TM.Application/TM.Application.csproj",
         "projectName": "TM.Application",
-        "projectPath": "/home/biruk/Desktop/Classes/A2SV/Internship/net/Task-Management-system/TM.Application/TM.Application.csproj",
+        "projectPath": "/home/biruk/Desktop/Classes/A2SV/Internship/net/ra/TaskManagementSystem/TM.Application/TM.Application.csproj",
         "packagesPath": "/home/biruk/.nuget/packages/",
-        "outputPath": "/home/biruk/Desktop/Classes/A2SV/Internship/net/Task-Management-system/TM.Application/obj/",
+        "outputPath": "/home/biruk/Desktop/Classes/A2SV/Internship/net/ra/TaskManagementSystem/TM.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/biruk/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/home/biruk/Desktop/Classes/A2SV/Internship/net/Task-Management-system/TM.Domain/TM.Domain.csproj": {
-                "projectPath": "/home/biruk/Desktop/Classes/A2SV/Internship/net/Task-Management-system/TM.Domain/TM.Domain.csproj"
+              "/home/biruk/Desktop/Classes/A2SV/Internship/net/ra/TaskManagementSystem/TM.Domain/TM.Domain.csproj": {
+                "projectPath": "/home/biruk/Desktop/Classes/A2SV/Internship/net/ra/TaskManagementSystem/TM.Domain/TM.Domain.csproj"
               }
             }
           }
@@ -53,6 +53,18 @@
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[11.1.0, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "System.Linq.Expressions": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Threading.Tasks": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             }
           },
           "imports": [
@@ -75,14 +87,14 @@
         }
       }
     },
-    "/home/biruk/Desktop/Classes/A2SV/Internship/net/Task-Management-system/TM.Domain/TM.Domain.csproj": {
+    "/home/biruk/Desktop/Classes/A2SV/Internship/net/ra/TaskManagementSystem/TM.Domain/TM.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/biruk/Desktop/Classes/A2SV/Internship/net/Task-Management-system/TM.Domain/TM.Domain.csproj",
+        "projectUniqueName": "/home/biruk/Desktop/Classes/A2SV/Internship/net/ra/TaskManagementSystem/TM.Domain/TM.Domain.csproj",
         "projectName": "TM.Domain",
-        "projectPath": "/home/biruk/Desktop/Classes/A2SV/Internship/net/Task-Management-system/TM.Domain/TM.Domain.csproj",
+        "projectPath": "/home/biruk/Desktop/Classes/A2SV/Internship/net/ra/TaskManagementSystem/TM.Domain/TM.Domain.csproj",
         "packagesPath": "/home/biruk/.nuget/packages/",
-        "outputPath": "/home/biruk/Desktop/Classes/A2SV/Internship/net/Task-Management-system/TM.Domain/obj/",
+        "outputPath": "/home/biruk/Desktop/Classes/A2SV/Internship/net/ra/TaskManagementSystem/TM.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/biruk/.nuget/NuGet/NuGet.Config"
@@ -150,14 +162,14 @@
         }
       }
     },
-    "/home/biruk/Desktop/Classes/A2SV/Internship/net/Task-Management-system/TM.Persistence/TM.Persistence.csproj": {
+    "/home/biruk/Desktop/Classes/A2SV/Internship/net/ra/TaskManagementSystem/TM.Persistence/TM.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/biruk/Desktop/Classes/A2SV/Internship/net/Task-Management-system/TM.Persistence/TM.Persistence.csproj",
+        "projectUniqueName": "/home/biruk/Desktop/Classes/A2SV/Internship/net/ra/TaskManagementSystem/TM.Persistence/TM.Persistence.csproj",
         "projectName": "TM.Persistence",
-        "projectPath": "/home/biruk/Desktop/Classes/A2SV/Internship/net/Task-Management-system/TM.Persistence/TM.Persistence.csproj",
+        "projectPath": "/home/biruk/Desktop/Classes/A2SV/Internship/net/ra/TaskManagementSystem/TM.Persistence/TM.Persistence.csproj",
         "packagesPath": "/home/biruk/.nuget/packages/",
-        "outputPath": "/home/biruk/Desktop/Classes/A2SV/Internship/net/Task-Management-system/TM.Persistence/obj/",
+        "outputPath": "/home/biruk/Desktop/Classes/A2SV/Internship/net/ra/TaskManagementSystem/TM.Persistence/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/biruk/.nuget/NuGet/NuGet.Config"
@@ -172,11 +184,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/home/biruk/Desktop/Classes/A2SV/Internship/net/Task-Management-system/TM.Application/TM.Application.csproj": {
-                "projectPath": "/home/biruk/Desktop/Classes/A2SV/Internship/net/Task-Management-system/TM.Application/TM.Application.csproj"
+              "/home/biruk/Desktop/Classes/A2SV/Internship/net/ra/TaskManagementSystem/TM.Application/TM.Application.csproj": {
+                "projectPath": "/home/biruk/Desktop/Classes/A2SV/Internship/net/ra/TaskManagementSystem/TM.Application/TM.Application.csproj"
               },
-              "/home/biruk/Desktop/Classes/A2SV/Internship/net/Task-Management-system/TM.Domain/TM.Domain.csproj": {
-                "projectPath": "/home/biruk/Desktop/Classes/A2SV/Internship/net/Task-Management-system/TM.Domain/TM.Domain.csproj"
+              "/home/biruk/Desktop/Classes/A2SV/Internship/net/ra/TaskManagementSystem/TM.Domain/TM.Domain.csproj": {
+                "projectPath": "/home/biruk/Desktop/Classes/A2SV/Internship/net/ra/TaskManagementSystem/TM.Domain/TM.Domain.csproj"
               }
             }
           }
@@ -228,6 +240,18 @@
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[7.0.4, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.30.1, )"
+            },
+            "System.Security.Claims": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Threading.Tasks": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             }
           },
           "imports": [

@@ -7,3 +7,4 @@ TM.Application/bin
 TM.API/bin/Debug
 TM.API/obj
 TM.Persistence/Migrations
+.fake

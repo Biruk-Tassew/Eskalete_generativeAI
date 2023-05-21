@@ -4,6 +4,8 @@ namespace TM.Application.Contracts.Persistence
     {
         ITasksRepository TasksRepository{get;}
         ICheckListRepository CheckListRepository{get;}
+        IUserRepository UserRepository {get;}
+        
 
         Task<int> Save();
          

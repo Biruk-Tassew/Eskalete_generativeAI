@@ -10,7 +10,7 @@ namespace TM.API.Controllers
     public class TasksController : BaseApiController
     {
         [HttpGet] //api/Tasks
-        public async Task<IActionResult> GetActivities()
+        public async Task<IActionResult> GetTasks()
         {
             return HandleResult(await Mediator.Send(new GetTasksListQuery()));
         }

@@ -1,8 +1,8 @@
 using TM.Application.Features.Common;
 
-namespace TM.Application.Features.Tasks.DTOs
+namespace TM.Application.Features.User.DTOs
 {
-    public class TasksDto : IUserDto
+    public class UserDto : IUserDto
     {
         public string UserName {get; set;}
         public string Email {get; set;}

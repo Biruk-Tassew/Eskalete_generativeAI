@@ -1,31 +1,31 @@
-using userDomain = TM.Domain;
-using AutoMapper;
+using MediatR;
 using TM.Application.Contracts.Persistence;
 using TM.Application.Features.User.CQRS.Commands;
-using TM.Application.Features.User.DTOs.Validators;
 using TM.Application.Responses;
-using MediatR;
+using System.Threading;
 using System.Threading.Tasks;
+using TM.Application.Features.User.DTOs.Validators;
+using AutoMapper;
 using Microsoft.AspNetCore.Identity;
 
 namespace TM.Application.Features.User.CQRS.Handlers
 {
-    public class CreateUserCommandHandler : IRequestHandler<CreateUserCommand, Result<string>> 
+    public class LoginCommandHandler : IRequestHandler<LoginCommand, Result<string>>
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
 
-        public CreateUserCommandHandler(IUnitOfWork unitOfWork, IMapper mapper)
+        public LoginCommandHandler(IUnitOfWork unitOfWork, IMapper mapper)
         {
             _unitOfWork = unitOfWork;
             _mapper = mapper;
         }
 
-        public async Task<Result<string>> Handle(CreateUserCommand request, CancellationToken cancellationToken)
+        public async Task<Result<string>> Handle(LoginCommand request, CancellationToken cancellationToken)
         {
             var response = new Result<string>();
-            var validator = new RegistrationDtoValidator();
-            var validationResult = await validator.ValidateAsync(request.RegistrationDto);
+            var validator = new AuthenticationDtoValidator();
+            var validationResult = await validator.ValidateAsync(request.authenticationDto);
 
             if (validationResult.IsValid == false)
             {
@@ -35,22 +35,22 @@ namespace TM.Application.Features.User.CQRS.Handlers
             }
             else
             {
-                var user = _mapper.Map<IdentityUser>(request.RegistrationDto);
 
-                user = await _unitOfWork.UserRepository.Add(user);
+                var user = _mapper.Map<IdentityUser>(request.authenticationDto);
+
+                var loggedInUser = await _unitOfWork.UserRepository.Login(user);
                 if (await _unitOfWork.Save() > 0)
                 {
                     response.Success = true;
-                    response.Message = "Creation Successful";
-                    response.Value = user.Id;
+                    response.Message = "Login Successful";
+                    response.Value = loggedInUser.Id;
                 }
                 else
                 {
                     response.Success = false;
-                    response.Message = "Creation Failed";
+                    response.Message = "Login Failed";
                 }
             }
-
             return response;
         }
     }

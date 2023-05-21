@@ -1,6 +1,6 @@
 using TM.Application.Features.Common;
 
-namespace TM.Application.Features.Tasks.DTOs
+namespace TM.Application.Features.User.DTOs
 {
     public class AuthenticationDto : IUserDto
     {

@@ -33,8 +33,17 @@ namespace TM.Persistence.Repositories
             var entity = await Get(id);
             return entity != null;
         }
+        public async Task<bool> Exists(string id)
+        {
+            var entity = await Get(id);
+            return entity != null;
+        }
 
         public async Task<T> Get(int id)
+        {
+            return await _dbContext.Set<T>().FindAsync(id);
+        }
+        public async Task<T> Get(string id)
         {
             return await _dbContext.Set<T>().FindAsync(id);
         }

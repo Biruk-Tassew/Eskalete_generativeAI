@@ -1,6 +1,7 @@
 using FluentValidation;
+using System.Linq.Expressions;
 
-namespace TM.Application.Features.Tasks.DTOs.Validators
+namespace TM.Application.Features.User.DTOs.Validators
 {
     public class RegistrationDtoValidator : AbstractValidator<RegistrationDto>
     {
@@ -16,7 +17,7 @@ namespace TM.Application.Features.Tasks.DTOs.Validators
                .NotNull()
                .MaximumLength(200).WithMessage("{PropertyName} must not exceed {ComparisonValue} characters.");
 
-            RuleFor(p => p.Password)
+            RuleFor(p => p.password)
                .NotEmpty().WithMessage("{PropertyName} is required.")
                .MinimumLength(8).WithMessage("{PropertyName} must be at least 8 characters long.")
                .Matches("[A-Z]").WithMessage("{PropertyName} must contain at least one uppercase letter.")

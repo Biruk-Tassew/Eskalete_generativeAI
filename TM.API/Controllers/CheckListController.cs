@@ -10,7 +10,7 @@ namespace TM.API.Controllers
     public class CheckListController : BaseApiController
     {
         [HttpGet] //api/CheckList
-        public async Task<IActionResult> GetActivities()
+        public async Task<IActionResult> GetCheckList()
         {
             return HandleResult(await Mediator.Send(new GetCheckListListQuery()));
         }
